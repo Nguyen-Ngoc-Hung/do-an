@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.ttf?89e5f853001ee65d0325c8a7df6b4eb5") format("truetype"),
+url("./icons.woff?89e5f853001ee65d0325c8a7df6b4eb5") format("woff"),
+url("./icons.woff2?89e5f853001ee65d0325c8a7df6b4eb5") format("woff2");
+}
+
+.app-icon:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-icon.icon-arrow-c-up:before {
+    content: "\f101";
+}
+.app-icon.icon-arrow-circle-left:before {
+    content: "\f102";
+}
+.app-icon.icon-bell:before {
+    content: "\f103";
+}
+.app-icon.icon-circle:before {
+    content: "\f104";
+}
+.app-icon.icon-close:before {
+    content: "\f105";
+}
+.app-icon.icon-date:before {
+    content: "\f106";
+}
+.app-icon.icon-delete:before {
+    content: "\f107";
+}
+.app-icon.icon-edit:before {
+    content: "\f108";
+}
+.app-icon.icon-hamburger:before {
+    content: "\f109";
+}
+.app-icon.icon-import:before {
+    content: "\f10a";
+}
+.app-icon.icon-logout:before {
+    content: "\f10b";
+}

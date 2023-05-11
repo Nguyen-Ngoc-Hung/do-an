@@ -1,0 +1,16 @@
+{
+  "env": {
+    "currentUser": "BIDV_RM5_SIT_CURRENT_USER",
+    "jwtName": "jwtname-remote5-sit",
+    "DASHBOARD": "ALL",
+    "ACCOUNTS": "ALL",
+    "BRANCHES": "ALL",
+    "LAZYLOAD": "ALL",
+    "useSSO": "Y",
+    "uriLogin": "/api/login/reqlink",
+    "uriLogout": "/api/logout/reqlink",
+    "urlServer": "http://remote5-sit-microfrontend.apps.openshift.ldapudtest.com/rm5svr",
+    "urlClient": "http://remote5-sit-microfrontend.apps.openshift.ldapudtest.com/",
+    "cookieServiceName": ".apps.openshift.ldapudtest.com"
+  }
+}

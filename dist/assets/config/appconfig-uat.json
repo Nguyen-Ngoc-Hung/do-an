@@ -1,0 +1,16 @@
+{
+  "env": {
+    "currentUser": "BIDV_RM5_UAT_CURRENT_USER",
+    "jwtName": "jwtname-remote5-uat",
+    "DASHBOARD": "ALL",
+    "ACCOUNTS": "ALL",
+    "BRANCHES": "ALL",
+    "LAZYLOAD": "ALL",
+    "useSSO": "Y",
+    "uriLogin": "/api/login/reqlink",
+    "uriLogout": "/api/logout/reqlink",
+    "urlServer": "http://remote5-uat-microfrontend.apps.openshift.ldapudtest.com/rm5svr",
+    "urlClient": "http://remote5-uat-microfrontend.apps.openshift.ldapudtest.com/",
+    "cookieServiceName": ".apps.openshift.ldapudtest.com"
+  }
+}

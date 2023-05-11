@@ -1,0 +1,75 @@
+$icons-font: "icons";
+
+@font-face {
+    font-family: $icons-font;
+    src: url("./icons.ttf?89e5f853001ee65d0325c8a7df6b4eb5") format("truetype"),
+url("./icons.woff?89e5f853001ee65d0325c8a7df6b4eb5") format("woff"),
+url("./icons.woff2?89e5f853001ee65d0325c8a7df6b4eb5") format("woff2");
+}
+
+.app-icon{
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-middle{
+    .app-icon{
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+}
+
+$icons-map: (
+    "arrow-c-up": "\f101",
+    "arrow-circle-left": "\f102",
+    "bell": "\f103",
+    "circle": "\f104",
+    "close": "\f105",
+    "date": "\f106",
+    "delete": "\f107",
+    "edit": "\f108",
+    "hamburger": "\f109",
+    "import": "\f10a",
+    "logout": "\f10b",
+);
+
+.app-icon.icon-arrow-c-up:before {
+    content: map-get($icons-map, "arrow-c-up");
+}
+.app-icon.icon-arrow-circle-left:before {
+    content: map-get($icons-map, "arrow-circle-left");
+}
+.app-icon.icon-bell:before {
+    content: map-get($icons-map, "bell");
+}
+.app-icon.icon-circle:before {
+    content: map-get($icons-map, "circle");
+}
+.app-icon.icon-close:before {
+    content: map-get($icons-map, "close");
+}
+.app-icon.icon-date:before {
+    content: map-get($icons-map, "date");
+}
+.app-icon.icon-delete:before {
+    content: map-get($icons-map, "delete");
+}
+.app-icon.icon-edit:before {
+    content: map-get($icons-map, "edit");
+}
+.app-icon.icon-hamburger:before {
+    content: map-get($icons-map, "hamburger");
+}
+.app-icon.icon-import:before {
+    content: map-get($icons-map, "import");
+}
+.app-icon.icon-logout:before {
+    content: map-get($icons-map, "logout");
+}

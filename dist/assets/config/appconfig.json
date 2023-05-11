@@ -1,0 +1,16 @@
+{
+  "env": {
+    "currentUser": "BIDV_RM5_CURRENT_USER",
+    "jwtName": "jwtname-remote5",
+    "DASHBOARD": "ALL",
+    "ACCOUNTS": "ALL",
+    "BRANCHES": "ALL",
+    "LAZYLOAD": "ALL",
+    "useSSO": "N",
+    "uriLogin": "/api/login/reqlink",
+    "uriLogout": "/api/logout/reqlink",
+    "urlServer": "http://localhost:9115/nvt",
+    "urlClient": "http://localhost:7005",
+    "cookieServiceName": "localhost"
+  }
+}
